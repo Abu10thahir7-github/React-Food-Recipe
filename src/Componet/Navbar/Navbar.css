@@ -1,0 +1,79 @@
+nav{
+    top: 0px;
+    position: fixed;
+    width: 100%;
+    background: #00000096;
+    display: flex;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: solid 1px #ffffff9c;
+    z-index: 99;
+}
+
+
+nav input{
+    border: solid 1px #fff;
+    padding: 13px;
+    color: rgb(240, 240, 240);
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    background: transparent;
+    border-right: none;
+}
+nav .search{
+    display: flex;
+    align-items: center;
+}
+nav button:hover{
+    transition: 0.3s;
+    background: #fff;
+    color: black;
+}
+nav button{
+    border: solid 1px #fff;
+    padding: 7px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-left:none ;
+    background: transparent;
+}
+
+nav .icon{
+    color: rgb(255, 255, 255) !important;
+}
+nav .logo{
+    display: flex;
+    align-items: center;
+}
+nav img{
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+
+}
+
+nav label {
+    color: #fff;
+}
+nav .items{
+  
+    border: solid 1px #fff;
+    padding: 10px;
+    border-radius: 50px;
+
+
+}
+
+nav select{
+    padding: 2px;
+    border: solid 1px #fff;
+    border-radius: 31px;
+    margin-left: 15px;
+}
+select option{
+    background: transparent;
+}

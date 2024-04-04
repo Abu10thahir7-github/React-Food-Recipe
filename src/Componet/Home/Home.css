@@ -1,0 +1,121 @@
+.Home {
+  padding: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 10px;
+  flex-direction: row;
+  top: 80px;
+  position: absolute;
+
+}
+
+.Home p,
+h3 {
+  
+  padding-block: 5px;
+  color: #c2c2c2;
+}
+.card-title p{
+  color: #ff8f00;
+}
+.card-title h3{
+  color: #edff00;
+}
+ .Home .card-img{
+  width: 50%;
+ }
+.Home img {
+  width: 100%;
+  object-fit: fill;
+  height: 100%;
+}
+
+.Home .card-items {
+  display: flex;
+  background: #0800283b;
+  border: solid 1px white;
+  align-items: center;
+  border-radius: 5px;
+  width: 100%;
+  backdrop-filter: blur(5px);
+}
+.Home .card-textContent{
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 20px;
+  width: 50%;
+
+}
+.Home a{
+
+  font-weight: 100;
+  text-decoration: none;
+  color: #c2c2c2;
+
+  display: flex;
+  justify-content: space-between;
+  padding-inline-end: 10px;
+}
+.Home .card-links{
+  border-bottom: solid 1px white;
+  display: flex;
+  flex-direction: column;
+  width: auto;
+  gap: 10px;
+  justify-content: center;
+}
+
+.Home div{
+  width: 40%;
+  height: 30vh;
+
+
+}
+.Home .card-title{
+  width: auto;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  border-bottom: solid 1px white;
+}
+.Home .icon{
+  color: red;
+  transition: 0.3s;
+}
+.Home .icon-go{
+  color: #ffffff;
+  transition: 0.3s;
+}
+.Home .icon:hover{
+  color: rgb(255, 255, 255);
+}
+.Home .icon-go:hover{
+  color: rgb(186, 186, 186);
+}
+.error{
+  width: 100%;
+  display: flex;
+
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+}
+
+.Home .like-save{
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-between;
+}
+.like-save span{
+  padding-inline-end: 10px;
+  display: flex;
+  align-items: center;
+} 
+
+.icon-save {
+  cursor: pointer;
+  
+}
