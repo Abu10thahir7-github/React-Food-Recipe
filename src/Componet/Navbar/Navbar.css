@@ -77,3 +77,29 @@ nav select{
 select option{
     background: transparent;
 }
+@media only screen and (max-width: 567px) {
+    nav{
+      
+        justify-content: space-evenly;
+    }
+    nav .logo h1{
+       display: none;  
+    }
+    .items .label{
+        display: none; 
+    }
+    nav input{
+
+        width: 52px;
+        padding: 6px;
+    }
+    nav button{
+        padding: 0px;
+    }
+    .items{
+        border: none !important;
+    }
+    nav select{
+        width: 60px;
+    }
+}

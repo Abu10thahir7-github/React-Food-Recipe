@@ -94,7 +94,7 @@ function Navbar() {
         </div>
 
         <div className="items">
-          <label htmlFor="category">Category :</label>
+          <label className="label" htmlFor="category">Category :</label>
           <select
             name="category"
             id="category"

@@ -119,3 +119,25 @@ h3 {
   cursor: pointer;
   
 }
+
+@media only screen and (max-width: 567px) {
+  .Home{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding: 0px;
+  width: 100%;
+  
+  }
+  .Home div{
+    width: 100%;
+  }
+  .Home img{
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+
+  }
+  
+}
